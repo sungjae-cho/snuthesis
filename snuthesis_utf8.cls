@@ -1,7 +1,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% 서울대학교 데이터마이닝연구실 구성원들의 박사학위논문 작성을 위해 아래 저작자의 자료를 일부 수정하였습니다.
 %% Author: zeta709 (zeta709@gmail.com) 
+%% 2019-06-17 서울대학교 협동과정 인지과학전공 이학석사 학위논문 작성을 위한 형태로 바꾸었습니다. by 조성재 (sj.cho@snu.ac.kr)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -318,11 +320,11 @@
 		\linespread{1.3}\selectfont
 		\fontsize{14pt}{14pt}\selectfont
 		\if@snu@ms
-			\@snu@koen{공학석사 학위논문}%
-			{공학석사 학위논문}\\
+			\@snu@koen{이학석사 학위논문}%
+			{이학석사 학위논문}\\
 		\else
 			\@snu@koen{공학박사 학위논문}%
-			{공학박사 학위논문}\\
+			{이학박사 학위논문}\\
 		\fi
 		\vspace{2cm}\nointerlineskip
 		\fontsize{22pt}{22pt}\selectfont
@@ -339,7 +341,7 @@
 		서울대학교 대학원\\
 		\vspace{5mm}\nointerlineskip
 		\fontsize{14pt}{14pt}\selectfont
-		산업공학과\\
+		협동과정 인지과학전공\\
 		\vspace{5mm}\nointerlineskip
 
 
@@ -404,7 +406,7 @@
 		\vspace{1cm}\nointerlineskip
 		\fontsize{16pt}{16pt}\selectfont
 		이 논문을 %
-		공학\@snu@msphd{석사}{박사} %
+		이학\@snu@msphd{석사}{박사} %
 		학위논문으로 제출함\\
 		\vspace{5mm}\nointerlineskip
 		\fontsize{14pt}{14pt}\selectfont
@@ -414,13 +416,13 @@
 		서울대학교 대학원\\
 		\vspace{5mm}\nointerlineskip
 		\fontsize{14pt}{14pt}\selectfont
-		산업공학과\\
+		협동과정 인지과학전공\\
 		\vspace{5mm}\nointerlineskip
 		\fontsize{16pt}{16pt}\selectfont
 		\@snu@authorn\\
 		\vspace{1cm}\nointerlineskip
 		\@authoralt의 %
-		공학\@snu@msphd{석사}{박사} %
+		이학\@snu@msphd{석사}{박사} %
 		학위논문을 인준함\\
 		\vspace{5mm}\nointerlineskip
 		\fontsize{14pt}{14pt}\selectfont
@@ -500,8 +502,8 @@
 	$\vbox{
 		\halign{
 			## & : ## \hfill \cr
-        	학\hfill위\hfill구\hfill분	& { \bfseries {박사}}\cr
-        	학\hfill과					& { 산업공학과}\cr
+        	학\hfill위\hfill구\hfill분	& { \bfseries {석사}}\cr
+        	학\hfill과					& { 협동과정 인지과학전공}\cr
             학\hfill번					& { \@snu@studentnumber}\cr
             연\hfill락\hfill처			& { \@snu@phonenumber}\cr
             저\hfill작\hfill자			& { \@snu@authorn \hspace*{15mm}\small{(인)}\hspace*{5mm}}\cr
@@ -562,7 +564,7 @@
 	{\fontsize{14}{14}\selectfont
 	
 		{\@author \par}
-		{Department of Industrial Engineering \par}
+		{Interdisciplinary Program in Cognitive Science \par}
 		{The Graduate School \par}
 		{Seoul National University \par}
 
